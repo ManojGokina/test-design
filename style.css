@@ -97,7 +97,7 @@ header {
 }
 .list{
   overflow: auto;
-  height: 443px;
+  height: 260px;
 }
 .itemImage {
   height: 150px;
@@ -143,6 +143,5 @@ h3 {
 .footer__image {
   height: 25px;
   width: 35px;
-  margin-top: 20px;
   object-fit: contain;
 }
