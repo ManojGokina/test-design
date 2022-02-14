@@ -81,7 +81,7 @@ header {
 .battery {
   height: 15px;
   width: 25px;
-  margin-top: 20px;
+  margin-top: 19px;
 }
 .slideImage {
   height: 167px;
@@ -95,7 +95,7 @@ header {
 .container {
   margin-top: -10px;
 }
-.list{
+.list {
   overflow: auto;
   height: 260px;
 }
@@ -133,11 +133,9 @@ h3 {
   margin-top: 25px;
   position: fixed;
   bottom: 0;
-  margin-bottom: 20px;
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
   position: sticky;
-  height: 30px;
   background-color: white;
 }
 .footer__image {
