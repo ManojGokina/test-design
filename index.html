@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <!-- <script src="script.js" defer></script> -->
     <title>Document</title>
   </head>
   <body>
@@ -28,70 +27,120 @@
         />
       </div>
     </header>
-    <section aria-label="Newest Photos">
-      <div class="carousel">
-        <ul class="data">
-          <li class="slide">
-            <img
-              src="./images/image 102.png"
-              alt="Nature Image #1"
-              class="slideImage"
-            />
-          </li>
-          <li class="slide">
-            <img
-              src="./images/image 103.png"
-              alt="Nature Image #2"
-              class="slideImage"
-            />
-          </li>
-          <li class="slide">
-            <img
-              src="./images/image 104.png"
-              alt="Nature Image #3"
-              class="slideImage"
-            />
-          </li>
-        </ul>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          src="./images/image 102.png"
+          style="width: 100%"
+          class="slideImage"
+        />
       </div>
-    </section>
+
+      <div class="mySlides fade">
+        <img
+          src="./images/image 103.png"
+          style="width: 100%"
+          class="slideImage"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="./images/image 104.png"
+          style="width: 100%"
+          class="slideImage"
+        />
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
     <div class="container">
       <h1>Popular</h1>
-      <div class="row__container">
-        <div class="itemsContaner">
-          <img src="./images/image 98.png" alt="item image" class="itemImage" />
-          <h2>Wooden Table Lamp</h2>
-          <h3>$2,300</h3>
+      <div class="list">
+        <div class="row__container" id="itemBody">
+          <div class="itemsContaner">
+            <img src="./images/image 98.png" alt="item image" class="itemImage" />
+            <h2>Wooden Table Lamp</h2>
+            <h3>$2,300</h3>
+          </div>
+          <div class="itemsContaner">
+            <img src="./images/image 89.png" alt="item image" class="itemImage" />
+            <h2>Shaped Sofa</h2>
+            <h3>$2899</h3>
+          </div>
         </div>
-        <div class="itemsContaner">
-          <img src="./images/image 89.png" alt="item image" class="itemImage" />
-          <h2>Shaped Sofa</h2>
-          <h3>$2899</h3>
+        <div class="row__container">
+          <div class="itemsContaner">
+            <img
+              src="./images/Frame 8458 1.png"
+              alt="item image"
+              class="itemImage"
+            />
+            <h2>European Style Sofa</h2>
+            <h3>$4890</h3>
+          </div>
+          <div class="itemsContaner">
+            <img src="./images/image 95.png" alt="item image" class="itemImage" />
+            <h2>Long Single Tool</h2>
+            <h3>$3499</h3>
+          </div>
         </div>
+        <div class="row__container">
+          <div class="itemsContaner">
+            <img src="./images/image 98.png" alt="item image" class="itemImage" />
+            <h2>Wooden Table Lamp</h2>
+            <h3>$2,300</h3>
+          </div>
+          <div class="itemsContaner">
+            <img src="./images/image 89.png" alt="item image" class="itemImage" />
+            <h2>Shaped Sofa</h2>
+            <h3>$2899</h3>
+          </div>
+        </div>
+        <div class="row__container">
+          <div class="itemsContaner">
+            <img
+              src="./images/Frame 8458 1.png"
+              alt="item image"
+              class="itemImage"
+            />
+            <h2>European Style Sofa</h2>
+            <h3>$4890</h3>
+          </div>
+          <div class="itemsContaner">
+            <img src="./images/image 95.png" alt="item image" class="itemImage" />
+            <h2>Long Single Tool</h2>
+            <h3>$3499</h3>
+          </div>
+        </div>
+        <div class="row__container">
+          <div class="itemsContaner">
+            <img src="./images/image 98.png" alt="item image" class="itemImage" />
+            <h2>Wooden Table Lamp</h2>
+            <h3>$2,300</h3>
+          </div>
+          <div class="itemsContaner">
+            <img src="./images/image 89.png" alt="item image" class="itemImage" />
+            <h2>Shaped Sofa</h2>
+            <h3>$2899</h3>
+          </div>
+        </div>
+
       </div>
-      <div class="row__container">
-        <div class="itemsContaner">
-          <img
-            src="./images/Frame 8458 1.png"
-            alt="item image"
-            class="itemImage"
-          />
-          <h2>European Style Sofa</h2>
-          <h3>$4890</h3>
-        </div>
-        <div class="itemsContaner">
-          <img src="./images/image 95.png" alt="item image" class="itemImage" />
-          <h2>Long Single Tool</h2>
-          <h3>$3499</h3>
-        </div>
-      </div>
+      
     </div>
     <div class="footer">
-        <img src="./images/Vector 178.png" alt="logo" class="footer__image">
-        <img src="./images/Vector 179.png" alt="logo" class="footer__image">
-        <img src="./images/Vector 180.png" alt="logo" class="footer__image">
-        <img src="./images/Vector 181.png" alt="logo" class="footer__image">
+      <img src="./images/Vector 178.png" alt="logo" class="footer__image" />
+      <img src="./images/Vector 179.png" alt="logo" class="footer__image" />
+      <img src="./images/Vector 180.png" alt="logo" class="footer__image" />
+      <img src="./images/Vector 181.png" alt="logo" class="footer__image" />
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
