@@ -56,7 +56,6 @@ function loadTableData(itemsData) {
   console.log(htmlData);
   mainDiv.innerHTML = htmlData;
 }
-
 loadTableData(itemsData);
 
 var slideIndex = 1;

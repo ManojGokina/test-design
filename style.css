@@ -99,6 +99,9 @@ header {
   overflow: auto;
   height: 260px;
 }
+.list::-webkit-scrollbar{
+  display: none;
+}
 .itemImage {
   height: 150px;
   width: 150px;
